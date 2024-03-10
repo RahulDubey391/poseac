@@ -19,6 +19,27 @@ The tool can be used for the following use cases:
 - Any other use case you can suggest
 
 ## Usage
+The tool usage is simple. Just trigger the following commands from the command line tool.
+
+### For generating annotated videos:
+```bash
+python localrunner.py --YT_LIST_FILE yt_list.csv --UPLOAD_FOLDER local_uploads
+```
+
+### For generating annotated videos with output keypoint dataset files:
+```bash
+python localrunner.py --YT_LIST_FILE yt_list.csv --UPLOAD_FOLDER local_uploads --is_keypoint_file
+```
+
+### If you want to visualize the keypoint generated in video format, use the below command:
+```bash
+python localrunner.py --YT_LIST_FILE yt_list.csv --UPLOAD_FOLDER local_uploads --is_keypoint_file --is_keypoint_video
+```
+
+## Also if you want the connected bones between the joints to be visualized as well, use this:
+```bash
+python localrunner.py --YT_LIST_FILE yt_list.csv --UPLOAD_FOLDER local_uploads --is_keypoint_file --is_keypoint_video --keypoint_bones
+```
 
 ## Limitations
 
