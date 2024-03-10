@@ -1,7 +1,10 @@
 # poseac
 
 Your go-to tool for extracting Estimated Pose Keypoints from Videos in-the-wild!
-![Raw Video](https://github.com/RahulDubey391/poseac/blob/main/local_uploads/Stunt%20Fighting%20%F0%9F%91%8A%F0%9F%8F%BD.mp4)
+
+https://github.com/RahulDubey391/poseac/assets/100185371/9a120ebe-9740-4315-b59e-72b235d50763
+
+
 ## About
 
 It's a command-line tool which you can use to run the project. The intention behind creating this project is to enable Developers, Researchers, and Animators to extract Key Point information from raw in-the-wild videos. Further, the dataset extracted can be used for future applications.
