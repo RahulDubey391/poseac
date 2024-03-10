@@ -21,6 +21,23 @@ The tool can be used for the following use cases:
 ## Usage
 The tool usage is simple. Just trigger the following commands from the command line tool.
 
+### Installation
+#### Get the environment setup
+```bash
+# Install the virtual environment dependency
+pip install virtualenv
+
+# Replace "myenv" with the name you want to give to your virtual environment
+virtualenv myenv
+
+# Activate the environment
+source myenv/bin/activate
+
+#Install the necessary dependencies
+pip install -r requirements.txt
+```
+
+
 ### For generating annotated videos:
 ```bash
 python localrunner.py --YT_LIST_FILE yt_list.csv --UPLOAD_FOLDER local_uploads
