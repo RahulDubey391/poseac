@@ -68,10 +68,10 @@ def keyPointsToVideo(
     try:
 
         # Define output video filename
-        output_video_filename = os.path.join('local_keypoint_video',output_file_name + '.avi') #'output_video.avi'
+        output_video_filename = os.path.join('local_keypoint_video',output_file_name + '.mp4') #'output_video.avi'
 
         # Define codec and frames per second (FPS) for the output video
-        codec = cv2.VideoWriter_fourcc(*'XVID')
+        codec = cv2.VideoWriter_fourcc(*'mp4v')
         fps = 30
 
         # Get the frame width and height from the DataFrame
