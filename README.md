@@ -6,6 +6,10 @@ Your go-to tool for extracting Estimated Pose Keypoints from Videos in-the-wild!
 
 It's a command-line tool which you can use to run the project. The intention behind creating this project is to enable Developers, Researchers, and Animators to extract Key Point information from raw in-the-wild videos. Further, the dataset extracted can be used for future applications.
 
+## Supported Models
+As of now we are just utilizing 1 model for pose-estimation model.
+- [https://docs.ultralytics.com/tasks/pose/] YoloV8-Pose
+
 ## Applicability
 
 The tool can be used for the following use cases:
